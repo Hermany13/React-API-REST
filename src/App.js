@@ -15,17 +15,17 @@ class App extends Component {
       {
          label:'API em Uso',
          icon:'pi pi-fw pi-dollar',
-         command:() => this.props.history.push('/React-API-REST/')
+         command:() => this.props.history.push('/')
       },
       {
         label:'Descrição',
         icon:'pi pi-fw pi-file',
-        command:() => this.props.history.push('/React-API-REST/descr')
+        command:() => this.props.history.push('/descr')
      },
       {
          label:'Contato',
          icon:'pi pi-fw pi-user',
-         command:() => this.props.history.push('/React-API-REST/contato')
+         command:() => this.props.history.push('/contato')
       },
    ];
 
