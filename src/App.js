@@ -28,9 +28,15 @@ class App extends Component {
          command:() => this.props.history.push('/contato')
       },
    ];
+
+   const menu = {
+     backgroundColor: "#66B3FF",
+     borderColor: "#CCE6FF",
+   }
+
     return (
       <div className="App">
-        <Menubar model={menuitems}/>      
+        <Menubar model={menuitems} style={menu}/>      
         <div id="main">
             <main>
                 <div className="content" id="content">
