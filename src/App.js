@@ -13,20 +13,20 @@ class App extends Component {
   render() {
     const menuitems = [
       {
-         label:'Consumo da API',
+         label:'API em Uso',
          icon:'pi pi-fw pi-dollar',
          command:() => this.props.history.push('/')
       },
+      {
+        label:'Descrição',
+        icon:'pi pi-fw pi-file',
+        command:() => this.props.history.push('/descr')
+     },
       {
          label:'Contato',
          icon:'pi pi-fw pi-user',
          command:() => this.props.history.push('/contato')
       },
-      {
-         label:'Descrição',
-         icon:'pi pi-fw pi-file',
-         command:() => this.props.history.push('/descr')
-      }
    ];
     return (
       <div className="App">

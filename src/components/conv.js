@@ -30,7 +30,7 @@ class Conv extends Component {
     var { isLoaded, items } = this.state;
 
     if (!isLoaded) {
-        return <div>Carregando...</div>;
+        return <div style={ca}>Carregando...</div>;
     }
     else {
         return (
@@ -38,7 +38,7 @@ class Conv extends Component {
             <ul style={lista}>
                 {items.map(item => (
                     <li key={item.id}>
-                       Nome: {item.name} | Cidade: {item.address.city}
+                       <span style={no}>Nome:</span> {item.name} | <span style={no}>Cidade:</span> {item.address.city}
                     </li>
                 ))}
             </ul>
@@ -53,6 +53,14 @@ class Conv extends Component {
 
 const lista = {
     listStyleType: "none",
+}
+
+const no = {
+    fontWeight: "bold",
+}
+
+const ca = {
+    marginTop: "10px",
 }
 
 export default Conv; 
