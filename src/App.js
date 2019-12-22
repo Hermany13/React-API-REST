@@ -13,7 +13,7 @@ class App extends Component {
   render() {
     const menuitems = [
       {
-         label:'Conversor',
+         label:'Consumo da API',
          icon:'pi pi-fw pi-dollar',
          command:() => this.props.history.push('/')
       },

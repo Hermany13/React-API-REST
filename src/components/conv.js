@@ -30,7 +30,7 @@ class Conv extends Component {
     var { isLoaded, items } = this.state;
 
     if (!isLoaded) {
-        return <div>Loading...</div>;
+        return <div>Carregando...</div>;
     }
     else {
         return (
