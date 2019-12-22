@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 
-
 class Conv extends Component {
 
     constructor(props) {
@@ -23,7 +22,6 @@ class Conv extends Component {
     render() {
 
         var {isLoaded, items} = this.state;
-
         if (!isLoaded) {
             return <div style={ca}>Carregando...</div>;
         } else {
@@ -31,18 +29,25 @@ class Conv extends Component {
                 <div className="App">
                     <ul style={lista}>
                         {items.map(item => (
-                            <div  style={lio}>
+                            <div style={lio}>
                                 <li key={item.id}>
-                                <span style={no}>Nome: </span>
-                                {item.name}
-                                <div style={ne}><span style={ni}>Username: </span>
-                                {item.username}</div> 
-                                <div style={ne}><span style={ni}>Email: </span>
-                                {item.email}</div> 
-                                <div style={ne}><span style={ni}>Cidade: </span>
-                                {item.address.city}</div>  
-                                                            
-                            </li>
+                                    <span style={no}>Nome:
+                                    </span>
+                                    {item.name}
+                                    <div style={ne}>
+                                        <span style={ni}>Username:
+                                        </span>
+                                        {item.username}</div>
+                                    <div style={ne}>
+                                        <span style={ni}>Email:
+                                        </span>
+                                        {item.email}</div>
+                                    <div style={ne}>
+                                        <span style={ni}>Cidade:
+                                        </span>
+                                        {item.address.city}</div>
+
+                                </li>
                             </div>
 
                         ))}
@@ -60,11 +65,11 @@ const lio = {
     marginBottom: "30px",
     borderRadius: "5px",
     marginRight: "30px",
-    padding: 15,
+    padding: 15
 }
 
 const lista = {
-    listStyleType: "none",
+    listStyleType: "none"
 }
 
 const no = {
