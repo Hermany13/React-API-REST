@@ -1,20 +1,22 @@
 {
   "files": {
     "main.css": "/React-API-REST/static/css/main.d1b05096.chunk.css",
-    "main.js": "/React-API-REST/static/js/main.a824409b.chunk.js",
-    "main.js.map": "/React-API-REST/static/js/main.a824409b.chunk.js.map",
+    "main.js": "/React-API-REST/static/js/main.689c9203.chunk.js",
+    "main.js.map": "/React-API-REST/static/js/main.689c9203.chunk.js.map",
     "runtime-main.js": "/React-API-REST/static/js/runtime-main.52f30019.js",
     "runtime-main.js.map": "/React-API-REST/static/js/runtime-main.52f30019.js.map",
     "static/css/2.c89ed5e3.chunk.css": "/React-API-REST/static/css/2.c89ed5e3.chunk.css",
-    "static/js/2.3d82b2d0.chunk.js": "/React-API-REST/static/js/2.3d82b2d0.chunk.js",
-    "static/js/2.3d82b2d0.chunk.js.map": "/React-API-REST/static/js/2.3d82b2d0.chunk.js.map",
+    "static/js/2.951958ab.chunk.js": "/React-API-REST/static/js/2.951958ab.chunk.js",
+    "static/js/2.951958ab.chunk.js.map": "/React-API-REST/static/js/2.951958ab.chunk.js.map",
     "index.html": "/React-API-REST/index.html",
-    "precache-manifest.c227c0111b89e0cae803195b75f5a554.js": "/React-API-REST/precache-manifest.c227c0111b89e0cae803195b75f5a554.js",
+    "precache-manifest.d90b0605266187d3940c958511e35fea.js": "/React-API-REST/precache-manifest.d90b0605266187d3940c958511e35fea.js",
     "service-worker.js": "/React-API-REST/service-worker.js",
     "static/css/2.c89ed5e3.chunk.css.map": "/React-API-REST/static/css/2.c89ed5e3.chunk.css.map",
     "static/css/main.d1b05096.chunk.css.map": "/React-API-REST/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.3d82b2d0.chunk.js.LICENSE": "/React-API-REST/static/js/2.3d82b2d0.chunk.js.LICENSE",
+    "static/js/2.951958ab.chunk.js.LICENSE": "/React-API-REST/static/js/2.951958ab.chunk.js.LICENSE",
     "static/media/primereact.min.css": "/React-API-REST/static/media/line.567f5738.gif",
+    "static/media/fet.JPG": "/React-API-REST/static/media/fet.c628c2ff.JPG",
+    "static/media/jsonEx.JPG": "/React-API-REST/static/media/jsonEx.0b9fca95.JPG",
     "static/media/theme.css": "/React-API-REST/static/media/open-sans-v15-latin-regular.cffb686d.woff2",
     "static/media/primeicons.css": "/React-API-REST/static/media/primeicons.e5e0e944.svg",
     "static/media/profile.jpg": "/React-API-REST/static/media/profile.206326ff.jpg"
@@ -22,8 +24,8 @@
   "entrypoints": [
     "static/js/runtime-main.52f30019.js",
     "static/css/2.c89ed5e3.chunk.css",
-    "static/js/2.3d82b2d0.chunk.js",
+    "static/js/2.951958ab.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.a824409b.chunk.js"
+    "static/js/main.689c9203.chunk.js"
   ]
 }
