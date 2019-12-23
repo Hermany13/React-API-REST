@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d2316c259b8b4405460ad89002396fb2",
+    "revision": "dda97e6b6274b325867a9336b79f40c8",
     "url": "/React-API-REST/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-API-REST/static/css/2.c89ed5e3.chunk.css"
   },
   {
-    "revision": "e6110807438c468fc1ca",
+    "revision": "786d2a1697d815db4b38",
     "url": "/React-API-REST/static/css/main.d1b05096.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-API-REST/static/js/2.951958ab.chunk.js.LICENSE"
   },
   {
-    "revision": "e6110807438c468fc1ca",
-    "url": "/React-API-REST/static/js/main.726298a1.chunk.js"
+    "revision": "786d2a1697d815db4b38",
+    "url": "/React-API-REST/static/js/main.2cbaadf9.chunk.js"
   },
   {
     "revision": "51b3dd0f99139396f929",
@@ -104,6 +104,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-API-REST/static/media/open-sans-v15-latin-regular.cffb686d.woff2"
   },
   {
+    "revision": "b32daa238fd706bbedf442edeac751b6",
+    "url": "/React-API-REST/static/media/perfil.b32daa23.jpg"
+  },
+  {
     "revision": "2d2afb2719a1ee903e576e7c457daf81",
     "url": "/React-API-REST/static/media/primeicons.2d2afb27.eot"
   },
@@ -118,9 +122,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e5e0e94474d5fd92e7e800a8865d297c",
     "url": "/React-API-REST/static/media/primeicons.e5e0e944.svg"
-  },
-  {
-    "revision": "206326ff20a8742c912e0e72eba87108",
-    "url": "/React-API-REST/static/media/profile.206326ff.jpg"
   }
 ]);
