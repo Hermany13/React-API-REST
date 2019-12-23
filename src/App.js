@@ -14,12 +14,12 @@ class App extends Component {
     const menuitems = [
       {
          label:'API em Uso',
-         icon:'pi pi-fw pi-dollar',
+         icon:'pi pi-fw pi-id-card',
          command:() => this.props.history.push('/')
       },
       {
         label:'Descrição',
-        icon:'pi pi-fw pi-file',
+        icon:'pi pi-fw pi-info-circle',
         command:() => this.props.history.push('/descr')
      },
       {

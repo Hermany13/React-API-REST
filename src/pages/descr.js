@@ -7,7 +7,7 @@ const Descr = () => (
         <h2>React-API-Rest</h2>
         <p>Esta aplicação foi feita com <a href={"https://pt-br.reactjs.org"}>ReactJS</a> e faz consumo de uma API<br/>
             patrocinada pelo GitHub chamada <a href={"https://jsonplaceholder.typicode.com"}>JSONPlaceholder</a>, que consiste em uma API que<br/>
-            retorna um JSON com uma série de informações <span style={sp}>fakes</span> para testes e uso acadêmico</p>
+            retorna um JSON com uma série de informações <span style={sp}>fakes</span> para testes e uso acadêmico.</p>
             <h4>Exemplo de jsonplaceholder:</h4>
             <img src={jsonex} style={imgC}></img>
             <h4>Consulta</h4>
@@ -15,7 +15,7 @@ const Descr = () => (
             que a página é montada ele mude os estados de <span style={sp}>"items"</span> e <span style={sp}>"isLoaded"</span> trazendo o Json recebido<br/>
             para <span style={sp}>"items"</span> para que o possamos usar na aplicacação e mudando <span style={sp}>"isLoaded"</span> para <span style={sp}>"false"</span>.<br/>
             Verificando que o json foi carregado através do <span style={sp}>"isLoaded"</span>, a aplicação gera uma lista com o conteúdo do json<br/>
-            através da função .map</p>
+            através do método <a href={"https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/map"}>map()</a>.</p>
             <h4>Código de consulta:</h4>
             <img src={fet} style={imgC}></img>
     </div>
