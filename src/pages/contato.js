@@ -1,5 +1,5 @@
 import React from 'react';
-import profile from "./profile.jpg";
+import profile from "./perfil.jpg";
 
 
 
@@ -23,8 +23,8 @@ const lin = {
 
 const logo = {
     border: '3px solid #66B3FF',
-    width: "100px",
-    borderRadius: "50px",
+    width: "170px",
+    borderRadius: "100px",
     marginTop: "15px",
 }
 
